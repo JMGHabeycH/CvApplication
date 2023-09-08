@@ -1,0 +1,62 @@
+.cv__container{
+    background-color: whitesmoke;
+    color: black;
+    width: 60%;
+    margin: auto;
+    padding: 0rem 7rem;
+    word-wrap: break-word;
+    height: 60rem;
+    margin-bottom: 2rem;
+}
+
+.cv__general-info{
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.cv__general-info__name{
+    margin-bottom: 0rem;
+}
+
+.cv__general-info__personal-info{
+    width: 45%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cv__educational-experience{
+    border-top: 1px solid black;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.cv__educational-experience__career-info{
+    display: flex;
+}
+
+.cv__educational-experience__career-info :first-child{
+    margin-right: 5rem;
+}
+
+.cv__job-experience{
+    border-top: 1px solid black;
+    padding-top: 1rem;
+}
+
+.cv__job-experience__title{
+    margin-bottom: 1rem;
+}
+
+.cv__job-expetience__company-info{
+    display: flex;
+}
+
+.cv__job-experience__dates{
+    margin-right: 1rem;
+}
+
